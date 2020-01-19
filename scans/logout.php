@@ -29,9 +29,7 @@ session_destroy();
 	</head>
 <body>
 <?php
-	if (!is_dir("../scans")){
-		$header  = "<h1>Threat Scanner</h1>";
-	}
+	$header  = "<h1>Threat Scanner</h1>";
 	echo "<div class='main-header'>" . $header . "</div>";
 ?>
 <hr/>
