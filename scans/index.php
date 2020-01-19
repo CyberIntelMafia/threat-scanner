@@ -35,7 +35,7 @@
 <?php
 if (is_dir("../scans")){
 	echo "<div>Analyzed Directories</div>";
-	exec("ls | grep -v index.php",$_retval);
+	exec("ls | grep -v .php",$_retval);
 	(int)$item = 0;
 	echo "<ul class='list-group'>";
 	foreach ($_retval as $result):
