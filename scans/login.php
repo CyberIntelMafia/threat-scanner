@@ -58,7 +58,8 @@ $username = $_SESSION["username"];
 </form>
 <?php
 } else {
-	echo "Logged In As $username";
+	echo "Logged In As $username<br/>";
+	echo "<a href=index.php>View Dashboard</a>";
 }
 ?>
 </body>
