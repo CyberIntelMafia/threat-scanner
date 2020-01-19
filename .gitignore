@@ -1,3 +1,4 @@
 logs/**
 datasets/**
 nohup.out
+scans/2020-*
